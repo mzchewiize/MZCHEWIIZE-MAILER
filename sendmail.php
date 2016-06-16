@@ -11,13 +11,13 @@ require 'PHPMailerAutoload.php';
 require 'config.php';
 
 //send form //
-$send_from = 'info@fotaf.org';  
-$send_from_name ='FOTAF GLOBAL EMAIL';
+$send_from = '';  
+$send_from_name ='';
 // reply to 
-$reply_to = 'no-reply@fotaf.org';
+$reply_to = '';
 $reply_to_name ='';
 // sendmail _to
-$send_mail_to = 'mz.chewii@gmail.com';
+$send_mail_to = '';
 $send_mail_to_name ='';
 // email pack 
 // Include Subject + body
